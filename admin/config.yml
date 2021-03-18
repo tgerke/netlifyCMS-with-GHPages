@@ -2,7 +2,7 @@ backend:
   name: github
   repo: tgerke.github.io/netlifyCMS-with-GHPages/
   branch: main
-  site_domain: netlifycms-with-ghpages.netlify.com
+  site_domain: netlifycms-with-ghpages.netlify.app
 
 media_folder: "images/uploads"
 
@@ -17,3 +17,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
+      
