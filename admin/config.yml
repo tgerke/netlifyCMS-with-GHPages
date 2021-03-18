@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: tgerke/tgerke.github.io/netlifyCMS-with-GHPages/
+  repo: tgerke/netlifyCMS-with-GHPages
   branch: main
   site_domain: netlifycms-with-ghpages.netlify.app
 
