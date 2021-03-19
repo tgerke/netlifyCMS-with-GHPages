@@ -21,7 +21,6 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Rmd Pages"
     label: "Rmarkdown"
-    extension: "Rmd"
     format: "yaml-frontmatter"
     files:
       - label: "Index"
@@ -31,7 +30,6 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "Markdown Pages"
     label: "markdown"
-    extension: "md"
     files:
       - label: "readme"
         name: "readme"
