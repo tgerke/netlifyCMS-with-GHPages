@@ -29,3 +29,7 @@ library(dplyr)
 starwars %>% 
   filter(species == "Droid")
 ```
+
+# Section added with Netlify
+
+Here's a section I'm adding within the CMS. Fingers crossed!
