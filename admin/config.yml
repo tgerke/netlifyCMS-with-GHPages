@@ -19,8 +19,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Pages"
-    label: "pages"
+  - name: "Rmd Pages"
+    label: "Rmarkdown"
     extension: "Rmd"
     format: "yaml-frontmatter"
     files:
@@ -29,4 +29,13 @@ collections:
         file: "index.Rmd"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
-      
+  - name: "Markdown Pages"
+    label: "markdown"
+    extension: "md"
+    files:
+      - label: "readme"
+        name: "readme"
+        file: "README.md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+          
