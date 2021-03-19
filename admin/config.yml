@@ -25,6 +25,8 @@ collections:
       - label: "Index"
         name: "index"
         file: "index.Rmd"
+        extension: "Rmd"
+        format: "frontmatter"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
       
