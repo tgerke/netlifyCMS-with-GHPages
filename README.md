@@ -10,11 +10,13 @@ Steps follow from [here](https://www.netlifycms.org/docs/add-to-your-site/) with
 4. Set up a new Netlify site from the repo (could actually be from any arbitrary repo, since we're not using Netlify as the host)
 5. Go to Netlify Settings -> Domain Management and add `you.github.io` as a custom domain (you can only do this for one site in Netlify!!)
 6. Go to Netlify -> Access control and install OAuth provider according to the key in step 3. 
-7. Make sure `repo:` and `site_domain:` match your GitHub and Netlify names in `config.yml`. For example: 
+7. Make sure `repo:` and `site_domain:` match your GitHub and Netlify names in `config.yml`. The `site_url:` field is also apparently [helpful for various reasons](https://www.netlifycms.org/docs/configuration-options/#site-url) so we'll fill it in now. For example: 
 ```
 backend:
   name: github
   repo: tgerke/netlifyCMS-with-GHPages
   branch: main
   site_domain: netlifycms-with-ghpages.netlify.app
+
+site_url: https://tgerke.github.io/netlifyCMS-with-GHPages/
 ```

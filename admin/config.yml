@@ -4,6 +4,8 @@ backend:
   branch: main
   site_domain: netlifycms-with-ghpages.netlify.app
 
+site_url: https://tgerke.github.io/netlifyCMS-with-GHPages/
+
 media_folder: "images/uploads"
 
 collections:
