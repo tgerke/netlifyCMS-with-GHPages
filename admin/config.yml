@@ -19,12 +19,14 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - files:
+  - name: "Pages"
+    label: "pages"
+    extension: "Rmd"
+    format: "yaml-frontmatter"
+    files:
       - label: "Index"
         name: "index"
         file: "index.Rmd"
-        extension: "Rmd"
-        format: "yaml-frontmatter"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
       
