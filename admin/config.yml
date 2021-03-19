@@ -19,17 +19,10 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "index"
-    label: "Index"
+  - name: "Pages"
+    label: "pages"
     files:
       - label: "Index"
         name: "index"
         file: "index.Rmd"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - label: Body
-            name: body
-            widget: list
-            fields:
-              - {label: "Body", name: "body", widget: "markdown"}
       
