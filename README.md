@@ -1,4 +1,4 @@
-## Deploying NetlifyCMS on a GitHub Pages site
+## Deploying NetlifyCMS on a GitHub Pages site built with R Markdown
 
 Site initiated with the help of the [`rmdformats` package](https://github.com/juba/rmdformats).
 
