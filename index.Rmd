@@ -1,5 +1,5 @@
 ---
-title: "Edit this wiki with Netlify CMS"
+title: Edit this wiki with Netlify CMS
 date: "`r Sys.Date()`"
 author: Travis Gerke
 output:
@@ -21,27 +21,11 @@ Ideally, we'll end up with a page that is editable by non-git users via Netlify'
 
 # Code
 
-Here's the `.Rmd` we're working from:
+Here's some random `R` code in a block.
 
 ```
----
-title: "Edit this wiki with Netlify CMS"
-date: "`r Sys.Date()`"
-author: Travis Gerke
-output:
-  rmdformats::robobook:
-    self_contained: true
-    thumbnails: true
-    lightbox: true
-    gallery: false
-    highlight: tango
----
+library(dplyr)
 
-# Introduction
-
-[https://www.netlifycms.org](NetlifyCMS) looks really cool. Hope this works!
-
-# Code
-
-Here's the `.Rmd` we're working from:
+starwars %>% 
+  filter(species == "Droid")
 ```
