@@ -21,6 +21,7 @@ jobs:
         run: |
           install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
           pak::pkg_install("rmarkdown")
+          pak::pkg_install("juba/rmdformats")
         shell: Rscript {0}
       - name: Render Rmarkdown files
         run: |
