@@ -14,7 +14,7 @@ Steps follow from [here](https://www.netlifycms.org/docs/add-to-your-site/) with
 ```
 backend:
   name: github
-  repo: tgerke.github.io/netlifyCMS-with-GHPages/
+  repo: tgerke/netlifyCMS-with-GHPages
   branch: main
-  site_domain: netlifycms-with-ghpages.netlify.com
+  site_domain: netlifycms-with-ghpages.netlify.app
 ```
