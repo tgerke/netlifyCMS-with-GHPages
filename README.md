@@ -13,6 +13,8 @@ Steps follow from [here](https://www.netlifycms.org/docs/add-to-your-site/) with
 7. Make sure `repo:` and `site_domain:` match your GitHub and Netlify names in `config.yml`. The `site_url:` field is also apparently [helpful for various reasons](https://www.netlifycms.org/docs/configuration-options/#site-url) so we'll fill it in now (see below).
 8. I only want the CMS to edit two files: `README.md` and `index.Rmd`. This is set up through two file collections as below. Note that the `.Rmd` file has a `yaml-frontmatter` format specified; this allows Netlify to parse the R Markdown file as if it were regular markdown (and it ignores the `yaml` frontmatter).
 9. Set up GitHub Actions to rebuild the site on changes pushed to the `.Rmd` files. Instructions are [https://github.com/r-lib/actions/tree/master/examples#render-rmarkdown](https://github.com/r-lib/actions/tree/master/examples#render-rmarkdown): `usethis::use_github_action("render-rmarkdown")` does the trick.
+10. You should now be able to log into your GitHub Pages hosted site which is editable by the Netlify CMS UI -- hooray! Just append `/admin` to your site URL to log in; e.g. this one is editable at [https://tgerke.github.io/netlifyCMS-with-GHPages/admin/](https://tgerke.github.io/netlifyCMS-with-GHPages/admin/)
+
 ```
 backend:
   name: github
