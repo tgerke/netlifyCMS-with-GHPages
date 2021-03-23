@@ -33,5 +33,3 @@ starwars %>%
 # Section added with Netlify
 
 Here's a section I'm adding within the CMS. Fingers crossed!
-
-Here's a further edit for demo.
